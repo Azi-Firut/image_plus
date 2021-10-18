@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
               shape: const RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(30.0))),
               child: Image(
-                image: NetworkImage(imgList[counterNumOfImg]),
+                image: NetworkImage(imgList[counterNumOfImg]), //fdbfdb
               ),
             ),
           ),
